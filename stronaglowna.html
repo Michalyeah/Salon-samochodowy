@@ -33,6 +33,13 @@
             
 
         }
+        header img{
+            height: fit-content;
+            width: 85%;
+        }
+        h1{
+            margin-left: 10px;
+        }
        
         .Modele{
             width: 200px;
@@ -90,9 +97,10 @@
             height: auto;
         }
         .up{
-            background-image: url(bialy-samochod-sportowy-jadacy-z-duza-predkoscia-na-drodze_114579-4028.avif);
+            background-image: url(kobnum.png);
             background-repeat: no-repeat;
             background-size: cover;
+
             
             width: 100%;
             height: 100%;
@@ -104,7 +112,7 @@
 
         }
         .wzium {
-            background-color: black;
+            background-color: rgb(133, 133, 133);
             width: 14%;
             height: 8%;
             display: flex;
@@ -115,13 +123,13 @@
             border-radius: 5px;
             
             
-            color: white;
+            color: black;
             
             
         }
         .wzium:hover{
-            background-color: rgb(133, 133, 133);
-            color: black;
+            
+            color: white;
 
         }
         .under-mid {
@@ -133,6 +141,7 @@
          align-items: center;
          justify-content: center;
          text-decoration: none;
+         flex-direction: column;
 
       }
       .modelel{
@@ -140,18 +149,46 @@
          height: 34%;
          background-color: white;
          box-shadow: 1px 0px 24px -13px;
-         margin-right: 20px;
+        
          border-radius: 10px;
          display: flex;
          flex-direction: column;
          align-items: center;
          justify-content: center;
          color: black;
+         margin-bottom: 60px;
          
+      }
+      .modelel h2{
+        display: flex;
+        justify-content: center;
+
+      }
+      .modelel p{
+        display: flex;
+        justify-content: center;
+        
+      }
+      .black{
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .modelel a{
         color: black;
         text-decoration: none;
+      }
+      .c1{
+        width: 60%;
+        height: 20%;
+      }
+      .c2{
+        width: 60%;
+        height: 20%;
+      }
+      .c3{
+        width: 60%;
+        height: 20%;
       }
       .koszykd{
         background-color: rgb(133, 133, 133);
@@ -163,13 +200,92 @@
             justify-content: center;
             
             border-radius: 5px;
+            margin-bottom: 20px;
             
             
-            color: white;
+            color: rgb(0, 0, 0);
 
       }
       .koszykd:hover{
         color: white;
+      }
+      .right{
+        width: 25%;
+        height: 50%;
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+      }
+      .dow{
+        text-decoration: none;
+        float: right;
+        background-color: rgb(133, 133, 133);
+            width: 29%;
+            height: 8%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            flex-direction: row;
+            margin-right: 10px;
+            
+            border-radius: 5px;
+            color: black;
+
+            
+            
+            
+      }
+      .dow:hover{
+            
+            color: white;
+
+        }
+      .do{
+        width: 100%;
+      }
+      .left{
+        height: 40%;
+        width: 70%;
+        display: flex;
+        
+        
+        
+      }
+      .left img{
+        width: 100%;
+        height: 100%;
+      }
+      .down{
+        display: flex;
+        flex-direction: row;
+      }
+      footer{
+        background-color: black;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+      footer a{
+        width: auto;
+            height: 100%;
+            
+            
+            color: white;
+            
+            
+            padding-left: 40px;
+            text-decoration: none;
+
+      }
+      footer a:hover{
+        color: white;
+        text-decoration: underline;
       }
 
         
@@ -177,18 +293,46 @@
 </head>
 <body>
     <header><a href="stronaglowna.html"><img src="logo.png"></a><nav><a class="Modele" href="#">Modele</a><a class="Serwisiakcesoria" href="#">Serwis i akcesoria</a><a class="historia" href="#">Historia</a><a class="kont" href="#">Kontakt</a></nav></header>
-    <section class="up"> <div class="wzium">Poznaj Olimp Wziumwziento</div></section>
+    <section class="up"> <a href=""><div class="wzium">Poznaj Olimp Wziumwziento</div></a></section>
     <section class="mid"> <h1>W naszym salonie możesz zaopatrzyć się w pokazane poniżej modele</h1>
         <div class="under-mid">
              
                 <div class="modelel ">
-                <a href="ksiazka-1.html" class="ksa">
-                   <div class="black"><img src="auto-1.png"></div>
-                   <h2>Olimp Rarrr</h2>
+                <a href="car-1.html" class="car-1">
+                   <div class="black"><img src="auto-1.png" class="c1"></div>
+                   <h2>Olimp Wrarrr</h2>
        
                    <p>
                     
-                      Cena: Od 250 000zł
+                      Cena: Od 1 250 000zł
+                   </p>
+                </a>
+                <div class="">
+                   <a class="koszykd" href="">Poznaj model</a>
+                </div>
+             </div>
+             <div class="modelel ">
+                <a href="car-2.html" class="car-2">
+                   <div class="black"><img src="auto-2.png" class="c2"></div>
+                   <h2>Olimp Speedster</h2>
+       
+                   <p>
+                    
+                      Cena: Od 2 000 000zł
+                   </p>
+                </a>
+                <div class="">
+                   <a class="koszykd" href="">Poznaj model</a>
+                </div>
+             </div>
+             <div class="modelel ">
+                <a href="car-3.html" class="car-3">
+                   <div class="black"><img src="auto-3.png" class="c3"></div>
+                   <h2>Olimp Cabrio</h2>
+       
+                   <p>
+                    
+                      Cena: Od 2 250 000zł
                    </p>
                 </a>
                 <div class="">
@@ -198,8 +342,8 @@
         </div>        
     
     </section>
-    <section class="down"></section>
-    <footer></footer>
+    <section class="down"><p><h1>Krótko o nas</h1></p><div class="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quaerat laudantium libero officia totam, reprehenderit corrupti quidem nemo eos sed dolor optio sunt sapiente magnam provident, necessitatibus cumque quibusdam harum tempore! Provident, esse! Dolore odit quis maiores dolorum ipsam soluta voluptatum quam, natus aperiam harum dolorem iure.<br> <div class="do"><a href="" class="dow">Dowiedz się więcej</a></div> </div><div class="left"><img src="salon.jpg"></div></section>
+    <footer><h3>© Olimp 2025 </h3><a class="Modeleb" href="#">Modele</a><a class="Serwisiakcesoriab" href="#">Serwis i akcesoria</a><a class="historiab" href="#">Historia</a><a class="kontb" href="#">Kontakt</a></footer>
     
 </body>
 </html>
