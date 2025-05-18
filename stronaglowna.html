@@ -34,40 +34,16 @@
 
         }
         header img{
-            height: fit-content;
-            width: 85%;
+            height: 170%;
+            width: 100%;
+            display: flex;
         }
         h1{
             margin-left: 10px;
         }
        
-        .Modele{
-            width: 200px;
-            height: 40px;
-            background: white;
-            
-            color: rgb(189, 189, 189);
-            
-            
-            padding-right: 40px;
-            text-decoration: none;
-            
-
-        }
-        .Serwisiakcesoria{
-            width: 200px;
-            height: 40px;
-            background: white;
-            
-            color: rgb(189, 189, 189);
-            
-            
-                padding-right: 40px;
-                text-decoration: none;
-            
-        }
-        .historia{
-            width: 200px;
+        header a{
+          width: 200px;
             height: 40px;
             background: white;
             
@@ -78,17 +54,7 @@
                 text-decoration: none;
 
         }
-        .kont{
-            width: 200px;
-            height: 40px;
-            background: white;
-            text-decoration: none;
-            
-            color: rgb(189, 189, 189);
-            
-            
-
-        }
+        
         a:hover {
             color: black;
             
@@ -222,7 +188,7 @@
         text-decoration: none;
         float: right;
         background-color: rgb(133, 133, 133);
-            width: 29%;
+            width: 32%;
             height: 8%;
             display: flex;
             align-items: center;
@@ -288,11 +254,125 @@
         text-decoration: underline;
       }
 
+      @media only screen and (max-width:875px) {
+        header{
+          display: flex;
+          width: 100%;
+          height:15% ;
+         
+          align-items: center;
+          
+          flex-flow: column;
+          padding-bottom: 0;
+        }
+        header img{
+          width: 100%;
+          height: 170%;
+          display: flex ;
+          justify-content: center;
+
+          align-items: center;
+        }
+        header a{
+        width: 200px;
+            height: 40px;
+            background: white;
+            display: flex;
+            justify-content: center;
+            
+            color: rgb(189, 189, 189);
+            
+            
+                padding-right: 0;
+                text-decoration: none;
+        }
+        h1{
+            margin-left: 0;
+        }
+        .Modele{
+          margin-top: 30px;
+        }
+        .up{
+            background-image: url(kobnum.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            
+            width: 100%;
+            height: 20%;
+            margin-top: 100px;
+
+        }
+        .wzium {
+            background-color: rgb(133, 133, 133);
+            width: 45%;
+            height: 30%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            float: right;
+            border-radius: 5px;
+            text-decoration: none;
+           
+            
+            
+            
+            color: black;
+            
+            
+        }
+        .modelel{
+        width: 90%;
+         height: 34%;
+         background-color: white;
+         box-shadow: 1px 0px 24px -13px;
+        
+         border-radius: 10px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         color: black;
+         margin-bottom: 60px;
+         
+      }
+      .down{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      .right{
+        width: 90%;
+      }
+      .left{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        
+        
+        
+      }
+      
+        footer{
+        background-color: black;
+        width: 100%;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+      }
+        
+      }
+
         
     </style>
 </head>
 <body>
-    <header><a href="stronaglowna.html"><img src="logo.png"></a><nav><a class="Modele" href="#">Modele</a><a class="Serwisiakcesoria" href="#">Serwis i akcesoria</a><a class="historia" href="#">Historia</a><a class="kont" href="#">Kontakt</a></nav></header>
+    <header><a href="stronaglowna.html"><img src="logo.png"></a><nav><a class="Modele" href="#">Modele</a><a class="Serwisiakcesoria" href="#">Serwis i akcesoria</a><a class="historia" href="historia.html">Historia</a><a class="kont" href="#">Kontakt</a></nav></header>
     <section class="up"> <a href=""><div class="wzium">Poznaj Olimp Wziumwziento</div></a></section>
     <section class="mid"> <h1>W naszym salonie możesz zaopatrzyć się w pokazane poniżej modele</h1>
         <div class="under-mid">
@@ -314,7 +394,7 @@
              <div class="modelel ">
                 <a href="car-2.html" class="car-2">
                    <div class="black"><img src="auto-2.png" class="c2"></div>
-                   <h2>Olimp Speedster</h2>
+                   <h2>Olimp Sped</h2>
        
                    <p>
                     
@@ -343,7 +423,7 @@
     
     </section>
     <section class="down"><p><h1>Krótko o nas</h1></p><div class="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quaerat laudantium libero officia totam, reprehenderit corrupti quidem nemo eos sed dolor optio sunt sapiente magnam provident, necessitatibus cumque quibusdam harum tempore! Provident, esse! Dolore odit quis maiores dolorum ipsam soluta voluptatum quam, natus aperiam harum dolorem iure.<br> <div class="do"><a href="" class="dow">Dowiedz się więcej</a></div> </div><div class="left"><img src="salon.jpg"></div></section>
-    <footer><h3>© Olimp 2025 </h3><a class="Modeleb" href="#">Modele</a><a class="Serwisiakcesoriab" href="#">Serwis i akcesoria</a><a class="historiab" href="#">Historia</a><a class="kontb" href="#">Kontakt</a></footer>
+    <footer><h3>© Olimp 2025 </h3><a class="Modeleb" href="#">Modele</a><a class="Serwisiakcesoriab" href="#">Serwis i akcesoria</a><a class="historiab" href="historia.html">Historia</a><a class="kontb" href="#">Kontakt</a></footer>
     
 </body>
 </html>
